@@ -13,4 +13,4 @@ Hossein Hajmirbaba - Student Number 300208487
 
 Gilles Djawa - Student Number 300094497
 
-Arthur 	Vanel -Student Number 300203148
+Arthur 	Soh -Student Number 300203148
