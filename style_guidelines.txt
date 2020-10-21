@@ -1,0 +1,28 @@
+Overall Look and Feel of Eyelusions
+===============================
+Simple and easy to understand. Large fonts so that the text is easy to read. Mainly neutral colors with accents of color on interactive parts of the website.
+
+
+Colours
+================================================
+For Eyelusions we want simple colors that contrast one another
+
+- #F7F7F7 (Wild Sand) - Background
+- #191A1A (Woodsmoke) - Text
+- #c22929 (Tall Poppy) - Accents
+- #4795c9 (blue) - Buttons
+- #ffa203 (orange) - Nav bar
+
+
+Logo
+=================================
+https://logomakr.com/2ujExN
+
+
+Typography
+===============================================
+https://www.fontspace.com/aphont-font-f4926
+
+Buttons
+=============================================
+Buttons will be flat designed using the chosen colors outlined above.
