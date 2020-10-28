@@ -1,30 +1,46 @@
 <html>
+    <!-- Copy into all pages -->
+    <head> <!-- Type your page name instead -->
+        <title>Product Features</title>
+        <link rel="shortcut icon" href="https://i.ibb.co/n81WFRP/favi.png"></head>
+    <link href="style.css" rel="stylesheet">
     <header>
-        <link rel="stylesheet" href="style.css" type="text/css">
-    </header>
-    <body>
-        <div>
-            <div style="float: left; width: 49%; padding-left: 1%;">
-                <img src="images/place_holder_product_image.jpg" id="product_image" class="product_image">
+        <div class="nav">
+            <div class="logo">
+                <a href="Home.html"><img src="logo.png"></a>
             </div>
-            <div style="float: left; width: 49%; padding-left: 1%;">
-                <button onclick="display_area('electronic_vision')" style="width: 100%;">Electronic Vision</button>
+            <ul> <!-- Make your page active instead -->
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li class="active"><a href="ProductFeaturePage.html">Product</a></li>
+                <li><a href="Team Page.html">Team</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--  -->
+    <body>
+        <div class="main">
+            <div style="float: left; width: 63%;">
+                <img src="images/place_holder_product_image.jpg" id="product_image" class="product_image" style="width: 100%; height: auto;">
+            </div>
+            <div style="float: left; width: 35%;">
+                <button class="btns" onclick="display_area('electronic_vision')" style="width: 100%;">Electronic Vision</button>
 
-                <div id = "electronic_vision" class="info_section_hide">
+                <div class="txt" id = "electronic_vision" class="info_section_hide">
                     <h1>Feature 1</h1>
                     <p>Info about Feature 1</p>
                 </div>
 
-                <button onclick="display_area('Specs')" style="width: 100%;">Specs</button>
+                <button class="btns" onclick="display_area('Specs')" style="width: 100%;">Specs</button>
 
-                <div id = "Specs" class="info_section_hide">
+                <div class="txt" id = "Specs" class="info_section_hide">
                     <h1>Feature 2</h1>
                     <p>Info about Feature 2</p>
                 </div>
 
-                <button onclick="display_area('materials')" style="width: 100%;">Materials</button>
+                <button class="btns" onclick="display_area('materials')" style="width: 100%;">Materials</button>
 
-                <div id = "materials" class="info_section_hide">
+                <div class="txt" id = "materials" class="info_section_hide">
                     <h1>Feature 3</h1>
                     <p>Info about Feature 3</p>
                 </div>
