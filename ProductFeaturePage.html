@@ -1,6 +1,6 @@
 <html>
     <header>
-
+        <link rel="stylesheet" href="style.css" type="text/css">
     </header>
     <body>
         <div>
@@ -10,16 +10,23 @@
             <div style="float: left; width: 49%; padding-left: 1%;">
                 <button onclick="display_area('Option1')" style="width: 100%;">Option 1</button>
 
-                <div id = "Option1" style="display: none;">
+                <div id = "Option1" class="info_section_hide">
                     <h1>Feature 1</h1>
                     <p>Info about Feature 1</p>
                 </div>
 
                 <button onclick="display_area('Option2')" style="width: 100%;">Option 2</button>
 
-                <div id = "Option2" style="display: none;">
+                <div id = "Option2" class="info_section_hide">
                     <h1>Feature 2</h1>
                     <p>Info about Feature 2</p>
+                </div>
+
+                <button onclick="display_area('Option3')" style="width: 100%;">Option 3</button>
+
+                <div id = "Option3" class="info_section_hide">
+                    <h1>Feature 3</h1>
+                    <p>Info about Feature 3</p>
                 </div>
             </div>
         </div>
@@ -27,12 +34,18 @@
         <script>
             function display_area(id){
                 var x = document.getElementById(id)
-                if (x.style.display == "none"){
-                    x.style.display = ""
+                var y = document.getElementsByClassName("info_section_show")
+
+                if (x.className == "info_section_hide"){
+                    for (i=0; i<y.length; i++){
+                        y[i].className = "info_section_hide"
+                    }
+                    x.className = "info_section_show"
                 }
-                else if (x.style.display == ""){
-                    x.style.display = "none"
+                else if (x.className == "info_section_show"){
+                    x.className = "info_section_hide"
                 }
+
             }
         </script>
     </body>

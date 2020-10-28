@@ -8,3 +8,10 @@ Colors
 - #ffa203 (orange) - Nav bar
 
  */
+
+ .info_section_hide{
+     display: none;
+ }
+ .info_section_show{
+    display: contents;
+}
