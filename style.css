@@ -9,13 +9,107 @@ Colors
 
  */
 
- .info_section_hide{
+ @font-face {
+    font-family: custom;
+    src: url(APHont.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    font-family: custom
+}
+
+/* Navigation Bar */
+header {
+    background-color: #ffa203;
+    height: 50;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 17px;
+    background-color: #ffa203;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #ffa203;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #28233C;
+    background-color: #ffa203;
+    padding: 5px 20px;
+    border: 1px solid #28233C;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    background-color: #28233C;
+    color: #ffa203;
+}
+
+ul li.active a {
+    background-color: #28233C;
+    color: #ffa203;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.nav {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Product Page */
+.main {
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.txt {
+    border: 1px solid #bfbfbf;
+    padding: 5px 5px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    color: #191A1A;
+}
+
+.btns {
+    outline: none;
+    text-decoration: none;
+    color: #28233C;
+    background-color: #4795c9;
+    color: #28233C;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: 1px solid #2f6488;
+}
+
+.info_section_hide {
      display: none;
  }
- .info_section_show{
+
+ .info_section_show {
     display: contents;
 }
-.product_image{
+
+.product_image {
     width: 100%;
     height: auto;
 }
