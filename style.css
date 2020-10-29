@@ -102,10 +102,20 @@ ul li.active a {
 }
 
 .info_section_hide {
-     display: none;
+    display: none;
+    border: 1px solid #bfbfbf;
+    padding: 5px 5px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    color: #191A1A;
  }
 
  .info_section_show {
+    border: 1px solid #bfbfbf;
+    padding: 5px 5px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    color: #191A1A;
     display: contents;
 }
 
