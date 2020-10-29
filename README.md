@@ -6,7 +6,7 @@ https://github.com/Eyelusions
 Team members:
 	
 	Juan Ramirez - Student Number 300174548
-	Jean Marcel N'cho - student number 300172552
+	Jean Marcel N'cho - Student Number 300172552
 	Zaid Alsadoon - Student Number 300187660
 	Hossein Hajmirbaba - Student Number 300208487
 	Gilles Djawa - Student Number 300094497
