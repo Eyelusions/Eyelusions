@@ -1,7 +1,86 @@
 <html>
+    <!-- Copy into all pages -->
+    <link href="style.css" rel="stylesheet">
+    <head> <!-- Type your page name instead -->
+        <title>Product Features</title>
+        <link rel="shortcut icon" href="https://i.ibb.co/n81WFRP/favi.png"></head>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <a href="Home.html"><img src="logo.png"></a>
+            </div>
+            <ul> <!-- Make your page active instead -->
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Pricing.html">Pricing</a></li>
+                <li class="active"><a href="ProductFeaturePage.html">Product</a></li>
+                <li><a href="Team Page.html">Team</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--  -->
     <body>
-        <h1>
-            Feature
-        </h1>
+        <div class="main">
+            <div style="float: left; width: 63%;">
+                <img src="images/place_holder_product_image.jpg" id="product_image" class="product_image" style="width: 100%; height: auto;">
+            </div>
+            <div style="float: left; width: 35%;">
+                <button class="btns" onclick="display_area('electronic_vision')" style="width: 100%;">Electronic Vision</button>
+
+                <div id = "electronic_vision" class="info_section_hide">
+                    <h1>Feature 1</h1>
+                    <p>Info about Feature 1</p>
+                </div>
+
+                <button class="btns" onclick="display_area('Specs')" style="width: 100%;">Specs</button>
+
+                <div id = "Specs" class="info_section_hide">
+                    <h1>Feature 2</h1>
+                    <p>Info about Feature 2</p>
+                </div>
+
+                <button class="btns" onclick="display_area('materials')" style="width: 100%;">Materials</button>
+
+                <div id = "materials" class="info_section_hide">
+                    <h1>Feature 3</h1>
+                    <p>Info about Feature 3</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function display_area(id){
+                var x = document.getElementById(id)
+                var image = document.getElementById("product_image")
+                var y = document.getElementsByClassName("info_section_show")
+
+                if (x.className == "info_section_hide"){
+                    // Hides all members of the accordion
+                    for (i=0; i<y.length; i++){
+                        y[i].className = "info_section_hide"
+                    }
+                    // Shows the corresponding element
+                    x.className = "info_section_show"
+
+
+                }
+                else if (x.className == "info_section_show"){
+                    //hides element clicked
+                    x.className = "info_section_hide"
+                }
+
+                if (document.getElementsByClassName("info_section_hide").length == 3){
+                        image.src = "images/place_holder_product_image.jpg"
+                    }
+                else if (x.id == "electronic_vision"){
+                    image.src = "images/electronic_vision.jpg"
+                }
+                else if (x.id == "Specs"){
+                    image.src = "images/product_specs.jpg"
+                }
+                else if (x.id == "materials"){
+                    image.src = "images/product_materials.jpg"
+                }
+            }
+        </script>
     </body>
 </html>
