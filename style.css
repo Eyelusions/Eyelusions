@@ -113,3 +113,20 @@ ul li.active a {
     width: 100%;
     height: auto;
 }
+
+.teams {
+      position: relative;
+      }
+
+.description {
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(200, 200, 200, 0.85);
+      opacity: 0;
+      -webkit-transition: opacity .5s ease;
+      transition: opacity .5s ease;
+      }
+
+.teams:hover .description {
+      opacity:1;
+      }
