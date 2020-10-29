@@ -9,7 +9,7 @@ Colors
 
  */
 
- @font-face {
+@font-face {
     font-family: custom;
     src: url(APHont.ttf);
 }
@@ -82,31 +82,27 @@ ul li.active a {
     margin-top: 40px;
 }
 
-.txt {
-    border: 1px solid #bfbfbf;
-    padding: 5px 5px;
-    margin-top: -1px;
-    margin-bottom: 1px;
-    color: #191A1A;
-}
-
 .btns {
     outline: none;
     text-decoration: none;
     color: #28233C;
     background-color: #4795c9;
     color: #28233C;
-    font-size: 15px;
-    padding: 10px 20px;
+    font-size: 20px;
+    padding: 15px 20px;
     border: 1px solid #2f6488;
 }
 
 .info_section_hide {
-     display: none;
+    display: none;
  }
 
- .info_section_show {
-    display: contents;
+.info_section_show {
+    border: 1px solid #bfbfbf transparent;
+    padding: 10px 15px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    color: #191A1A;
 }
 
 .product_image {
