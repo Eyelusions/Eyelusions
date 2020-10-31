@@ -138,8 +138,10 @@ ul li.active a {
     margin: 60px;
     color: #191A1A;
     font-weight: bold;
+    padding-bottom: 10px;
 }
-.our-team h1::after{
+.our-team h1:after{
     content: '';
     display: block;
+    width: 150px;
 }
