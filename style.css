@@ -126,3 +126,11 @@ ul li.active a {
 .teams:hover .description {
       opacity:1;
       }
+
+.our-team{
+
+    text-align: center;
+    padding: 60px;
+    background: #34495e;
+
+}
