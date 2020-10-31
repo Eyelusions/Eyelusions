@@ -137,5 +137,9 @@ ul li.active a {
     text-transform: uppercase;
     margin: 60px;
     color: #191A1A;
-    font-size: 40px;
+    font-weight: bold;
+}
+.our-team h1::after{
+    content: '';
+    display: block;
 }
