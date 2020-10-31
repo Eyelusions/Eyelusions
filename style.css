@@ -131,7 +131,7 @@ ul li.active a {
 .our-team{
     overflow: hidden;
     text-align: center;
-    padding: 60px;
+    padding: 50px;
 }
 .our-team h1{
     text-transform: uppercase;
@@ -139,9 +139,4 @@ ul li.active a {
     color: #191A1A;
     font-weight: bold;
     padding-bottom: 10px;
-}
-.our-team h1:after{
-    content: '';
-    display: block;
-    width: 150px;
 }
