@@ -129,7 +129,7 @@ ul li.active a {
 
 /* Team page */
 .our-team{
-    
+    overflow: hidden;
     text-align: center;
     
 }
