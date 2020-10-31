@@ -127,10 +127,15 @@ ul li.active a {
       opacity:1;
       }
 
+/* Team page */
 .our-team{
-
+    overflow: hidden;
     text-align: center;
     padding: 60px;
-    background: #34495e;
-
+}
+.our-team h1{
+    text-transform: uppercase;
+    margin: 60px;
+    color: #191A1A;
+    font-size: 40px;
 }
