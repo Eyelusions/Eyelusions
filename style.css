@@ -30,19 +30,19 @@ header {
     margin-bottom: 25px;
 }
 
-ul {
+header ul {
     float: right;
     list-style-type: none;
     margin-top: 17px;
     background-color: #ffa203;
 }
 
-ul li {
+header ul li {
     display: inline-block;
     background-color: #ffa203;
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
     color: #28233C;
     background-color: #ffa203;
@@ -53,12 +53,12 @@ ul li a {
     border-radius: 10px;
 }
 
-ul li a:hover {
+header ul li a:hover {
     background-color: #28233C;
     color: #ffa203;
 }
 
-ul li.active a {
+header ul li.active a {
     background-color: #28233C;
     color: #ffa203;
 }
@@ -127,4 +127,10 @@ ul li.active a {
       opacity:1;
       }
 
+/*team page start*/
+.our{ 
+    text-align: center;
+}
 
+
+/*team page end*/
