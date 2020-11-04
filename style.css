@@ -47,7 +47,7 @@ ul li a {
     color: #28233C;
     background-color: #ffa203;
     padding: 5px 20px;
-    border: 1px solid #28233C;
+    border: 1px solid #28233C, transparent;
     font-size: 15px;
     margin-left: 10px;
     border-radius: 10px;
