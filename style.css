@@ -126,6 +126,7 @@ header ul li.active a {
 .teams:hover .description {
       opacity:1;
       }
+<<<<<<< HEAD
 
 /*team page start*/
 .our{ 
@@ -134,3 +135,17 @@ header ul li.active a {
 
 
 /*team page end*/
+=======
+.picture-left{
+    float:left;
+}
+ 
+.profiles{
+    display : flex;
+}
+ 
+.paragraph-right {
+  float:right;
+  
+}
+>>>>>>> 478bbea9a6dec95b37fc883700b6acf3e71c5189
