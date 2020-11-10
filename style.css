@@ -199,7 +199,7 @@ img{
 /* Home page */
 .HomeImage {
     position: relative;
-    height: 810px;
+    height: 94.22%;
     overflow: hidden;
     background: url(images/smart_glasses.jpg);
     background-size : cover;
@@ -215,7 +215,7 @@ img{
     overflow: hidden;
     text-align: center;
     color: #191A1A;
-    font-weight: 700;
+    font-weight: 1200;
     text-transform: uppercase;
     background: rgba(204, 204, 204, 0.5);
 
