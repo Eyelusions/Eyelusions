@@ -130,8 +130,8 @@ header ul li.active a {
 /*team page */
 .our{ 
     text-align: center;
-    margin-top: 20px;
-    
+    margin-top: 30px;
+    margin-bottom: 30px;  
 }
 .text-d{
     margin-left: 20px;   
@@ -142,13 +142,13 @@ table{
 table p{
     margin-top: 20px;
 }
-
 table img {
-    border-radius: 250px;
+    border-radius: 49%;
     overflow: hidden;
     width:200px;
     height:250px; 
 }
+
 .picture-left{
     float:left;
     overflow:hidden;
