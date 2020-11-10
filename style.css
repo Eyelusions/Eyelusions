@@ -199,7 +199,7 @@ img{
 /* Home page */
 .HomeImage {
     position: relative;
-    height: 1080px;
+    height: 810px;
     overflow: hidden;
     background: url(images/smart_glasses.jpg);
     background-size : cover;
