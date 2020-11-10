@@ -133,22 +133,6 @@ header ul li.active a {
     margin-top: 30px;
     margin-bottom: 30px;  
 }
-.text-d{
-    margin-left: 20px;   
-}
-table{
-    border-spacing: 20px;
-    
-}
-table p{
-    margin-top: 20px;
-}
-table img {
-    border-radius: 49%;
-    overflow: hidden;
-    width:200px;
-    height:250px; 
-}
 
 .picture-left{
     float:left;
@@ -157,35 +141,30 @@ table img {
     width:200px;
     height:250px; 
 }
-
+.paragraph-right {
+    float:right;
+    width:800px;
+}
 .profiles{
     display : flex;
-}
- 
-.paragraph-right {
-  float:right;
-  width:800px;
-}
-.profiles{
-  border-radius: 25px;
-  border: 2px solid #ffa203;
-  padding: 20px;
-  width: 1000px;
-  height: 250px;
-}
-.profiles {
-  position: relative;
-  width: 1000px;
-  height: 250px;
-  background: #F7F7F7;
-  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-  box-shadow: 20px 20px rgba(0,0,0,.15);
-  transition: all .4s ease;
+    border-radius: 25px;
+    /*border: 2px solid #ffa203;*/ /* je n'aimais pas les contours orange*/
+    padding: 20px;
+    width: 90%;
+    height: 250px;
+    position: relative;
+    background: #F7F7F7;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
 }
 .profiles:hover {
-  border-radius: 25px;
-  box-shadow: 10px 10px rgba(0,0,0,.25);
-  background-color:#ffa203;
+    border-radius: 25px;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+    background-color:#ffa203;
+}
+.team-description{
+    margin-top: 20px;
 }
 img{
 	margin-right: 50px;"
