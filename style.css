@@ -91,6 +91,11 @@ ul li.active a {
     font-size: 20px;
     padding: 15px 20px;
     border: 1px solid #2f6488;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color: #398ec6;
 }
 
 .info_section_hide {
