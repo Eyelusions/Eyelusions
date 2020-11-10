@@ -17,7 +17,7 @@ Colors
 * {
     margin: 0;
     padding: 0;
-    background-color: #F7F7F7;
+    
     font-family: custom
 }
 
@@ -138,6 +138,7 @@ header ul li.active a {
 }
 table{
     border-spacing: 20px;
+    
 }
 table p{
     margin-top: 20px;
@@ -163,6 +164,29 @@ table img {
  
 .paragraph-right {
   float:right;
-  
+  width:800px;
 }
-
+.profiles{
+  border-radius: 25px;
+  border: 2px solid #ffa203;
+  padding: 20px;
+  width: 1000px;
+  height: 250px;
+}
+.profiles {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  background: #F7F7F7;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.profiles:hover {
+  border-radius: 25px;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+  background-color:#ffa203;
+}
+img{
+	margin-right: 50px;"
+}
