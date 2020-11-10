@@ -30,19 +30,19 @@ header {
     margin-bottom: 25px;
 }
 
-ul {
+header ul {
     float: right;
     list-style-type: none;
     margin-top: 17px;
     background-color: #ffa203;
 }
 
-ul li {
+header ul li {
     display: inline-block;
     background-color: #ffa203;
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
     color: #28233C;
     background-color: #ffa203;
@@ -53,12 +53,12 @@ ul li a {
     border-radius: 10px;
 }
 
-ul li a:hover {
+header ul li a:hover {
     background-color: #28233C;
     color: #ffa203;
 }
 
-ul li.active a {
+header ul li.active a {
     background-color: #28233C;
     color: #ffa203;
 }
@@ -125,11 +125,38 @@ ul li.active a {
 
 .teams:hover .description {
       opacity:1;
-      }
+        }
+
+/*team page */
+.our{ 
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.text-d{
+    margin-left: 20px;   
+}
+table{
+    border-spacing: 20px;
+}
+table p{
+    margin-top: 20px;
+}
+
+table img {
+    border-radius: 250px;
+    overflow: hidden;
+    width:200px;
+    height:250px; 
+}
 .picture-left{
     float:left;
+    overflow:hidden;
+    border-radius:49%;
+    width:200px;
+    height:250px; 
 }
- 
+
 .profiles{
     display : flex;
 }
@@ -138,3 +165,4 @@ ul li.active a {
   float:right;
   
 }
+
