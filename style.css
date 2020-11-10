@@ -125,21 +125,37 @@ header ul li.active a {
 
 .teams:hover .description {
       opacity:1;
-      }
-<<<<<<< HEAD
+        }
 
-/*team page start*/
+/*team page */
 .our{ 
     text-align: center;
+    margin-top: 20px;
+}
+.text-d{
+    margin-left: 20px;   
+}
+table{
+    border-spacing: 20px;
+}
+table p{
+    margin-top: 20px;
 }
 
-
-/*team page end*/
-=======
+table img {
+    overflow:hidden;
+    border-radius:49%; /* make the picture circular */
+    width:200px;
+    height:250px;
+}
 .picture-left{
     float:left;
+    overflow:hidden;
+    border-radius:49%;
+    width:200px;
+    height:250px; 
 }
- 
+
 .profiles{
     display : flex;
 }
@@ -148,4 +164,4 @@ header ul li.active a {
   float:right;
   
 }
->>>>>>> 478bbea9a6dec95b37fc883700b6acf3e71c5189
+
