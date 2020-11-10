@@ -17,7 +17,7 @@ Colors
 * {
     margin: 0;
     padding: 0;
-    background-color: #F7F7F7;
+    
     font-family: custom
 }
 
@@ -30,19 +30,19 @@ header {
     margin-bottom: 25px;
 }
 
-ul {
+header ul {
     float: right;
     list-style-type: none;
     margin-top: 17px;
     background-color: #ffa203;
 }
 
-ul li {
+header ul li {
     display: inline-block;
     background-color: #ffa203;
 }
 
-ul li a {
+header ul li a {
     text-decoration: none;
     color: #28233C;
     background-color: #ffa203;
@@ -53,12 +53,12 @@ ul li a {
     border-radius: 10px;
 }
 
-ul li a:hover {
+header ul li a:hover {
     background-color: #28233C;
     color: #ffa203;
 }
 
-ul li.active a {
+header ul li.active a {
     background-color: #28233C;
     color: #ffa203;
 }
@@ -130,16 +130,67 @@ ul li.active a {
 
 .teams:hover .description {
       opacity:1;
-      }
+        }
+
+/*team page */
+.our{ 
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.text-d{
+    margin-left: 20px;   
+}
+table{
+    border-spacing: 20px;
+}
+table p{
+    margin-top: 20px;
+}
+
+table img {
+    border-radius: 250px;
+    overflow: hidden;
+    width:200px;
+    height:250px; 
+}
 .picture-left{
     float:left;
+    overflow:hidden;
+    border-radius:49%;
+    width:200px;
+    height:250px; 
 }
- 
+
 .profiles{
     display : flex;
 }
  
 .paragraph-right {
   float:right;
-  
+  width:800px;
+}
+.profiles{
+  border-radius: 25px;
+  border: 2px solid #ffa203;
+  padding: 20px;
+  width: 1000px;
+  height: 250px;
+}
+.profiles {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  background: #F7F7F7;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+.profiles:hover {
+  border-radius: 25px;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+  background-color:#ffa203;
+}
+img{
+	margin-right: 50px;"
 }
