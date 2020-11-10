@@ -27,7 +27,7 @@ header {
     height: 50;
     background-size: cover;
     background-position: center;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 header ul {
@@ -187,5 +187,38 @@ table img {
   background-color:#ffa203;
 }
 img{
-	margin-right: 50px;"
+	margin-right: 50px;
+}
+
+
+/* Home page */
+.HomeImage {
+    position: relative;
+    height: 1080px;
+    overflow: hidden;
+    background: url(images/smart_glasses.jpg);
+    background-size : cover;
+    
+    
+}
+
+.Slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: #191A1A;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: rgba(204, 204, 204, 0.5);
+
+}
+.h1 {
+    letter-spacing: 0.9em;
+    border: 10px solid #191A1A;
+    padding: 6px 14px;
+    display: inline-block;
+    background: rgba(204, 204, 204, 0.5);
 }
