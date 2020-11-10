@@ -131,6 +131,7 @@ header ul li.active a {
 .our{ 
     text-align: center;
     margin-top: 20px;
+    
 }
 .text-d{
     margin-left: 20px;   
@@ -143,10 +144,10 @@ table p{
 }
 
 table img {
-    overflow:hidden;
-    border-radius:49%; /* make the picture circular */
+    border-radius: 250px;
+    overflow: hidden;
     width:200px;
-    height:250px;
+    height:250px; 
 }
 .picture-left{
     float:left;
