@@ -126,3 +126,15 @@ ul li.active a {
 .teams:hover .description {
       opacity:1;
       }
+.picture-left{
+    float:left;
+}
+ 
+.profiles{
+    display : flex;
+}
+ 
+.paragraph-right {
+  float:right;
+  
+}
