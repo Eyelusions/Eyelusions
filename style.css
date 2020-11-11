@@ -27,7 +27,7 @@ header {
     height: 50;
     background-size: cover;
     background-position: center;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 header ul {
@@ -91,6 +91,11 @@ header ul li.active a {
     font-size: 20px;
     padding: 15px 20px;
     border: 1px solid #2f6488;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color: #398ec6;
 }
 
 .info_section_hide {
@@ -146,6 +151,7 @@ header ul li.active a {
     width:800px;
 }
 .profiles{
+<<<<<<< HEAD
     display : flex;
     border-radius: 25px;
     /*border: 2px solid #ffa203;*/ /* je n'aimais pas les contours orange*/
@@ -157,6 +163,23 @@ header ul li.active a {
     border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
     box-shadow: 20px 20px rgba(0,0,0,.15);
     transition: all .4s ease;
+=======
+  margin-left: 50px;
+  border-radius: 25px;
+  border: 2px solid #ffa203;
+  padding: 20px;
+  width: 1000px;
+  height: 250px;
+}
+.profiles {
+  position: relative;
+  width: 1000px;
+  height: 250px;
+  background: #F7F7F7;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+>>>>>>> a8a84eafd324ad1a6faafff7f77a92262fcb56f8
 }
 .profiles:hover {
     border-radius: 25px;
@@ -167,5 +190,38 @@ header ul li.active a {
     margin-top: 20px;
 }
 img{
-	margin-right: 50px;"
+	margin-right: 50px;
+}
+
+
+/* Home page */
+.HomeImage {
+    position: relative;
+    height: 94.22%;
+    overflow: hidden;
+    background: url(images/smart_glasses.jpg);
+    background-size : cover;
+    
+    
+}
+
+.Slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: #191A1A;
+    font-weight: 1200;
+    text-transform: uppercase;
+    background: rgba(204, 204, 204, 0.5);
+
+}
+.h1 {
+    letter-spacing: 0.9em;
+    border: 10px solid #191A1A;
+    padding: 6px 14px;
+    display: inline-block;
+    background: rgba(204, 204, 204, 0.5);
 }
