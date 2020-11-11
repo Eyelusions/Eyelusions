@@ -151,7 +151,6 @@ header ul li.active a {
     width:800px;
 }
 .profiles{
-<<<<<<< HEAD
     display : flex;
     border-radius: 25px;
     /*border: 2px solid #ffa203;*/ /* je n'aimais pas les contours orange*/
@@ -163,7 +162,6 @@ header ul li.active a {
     border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
     box-shadow: 20px 20px rgba(0,0,0,.15);
     transition: all .4s ease;
-=======
   margin-left: 50px;
   border-radius: 25px;
   border: 2px solid #ffa203;
@@ -179,7 +177,6 @@ header ul li.active a {
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
   box-shadow: 20px 20px rgba(0,0,0,.15);
   transition: all .4s ease;
->>>>>>> a8a84eafd324ad1a6faafff7f77a92262fcb56f8
 }
 .profiles:hover {
     border-radius: 25px;
