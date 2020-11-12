@@ -12,3 +12,6 @@ Team members:
 	Gilles Djawa - Student Number 300094497
 	Arthur Vanel - Student Number 300203148
 	Amin Kalinleh - Student Number 300119987
+
+==============================================================
+home page link: https://eyelusions.github.io/Eyelusions/Home.html
