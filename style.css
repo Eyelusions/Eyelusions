@@ -216,34 +216,30 @@ img{
     background: rgba(204, 204, 204, 0.0);
 }
 
-.footer-container {
+.global-footer {
 	padding: 0%;
 	color: white;
 	background-color: #ffa203;
 	display:flex;
 	justify-content: space-between;
 }
-.footer-variant {
+.footer-style {
     width: 25%;
 }
-.footer-variant h2 {
+.footer-style h2 {
 	font-family: titillium web;
 }
-.footer-variant div {
+.footer-style div {
 	display: flex;
 	margin-bottom: 5px;
 }
-.footer-variant div img {
+.footer-style div img {
 	padding-right: 5px;
 }
-.footer-variant ul {
+.footer-style ul {
 	list-style: none;
 }
-.footer-variant li a {
-	text-decoration: none;
-	color: white;
-	}
-.footer-variant a{
+.footer-style a {
 	text-decoration: none;
 	color: white;
 }
