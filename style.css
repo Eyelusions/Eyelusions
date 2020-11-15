@@ -213,7 +213,16 @@ img{
     font-weight: 1200;
     font-size: 35;
     text-transform: uppercase;
+    letter-spacing: 0.95em;
     background: rgba(204, 204, 204, 0.0);
+
+}
+
+.h1 {
+    border: 10px solid #191A1A;
+    padding: 6px 14px;
+    display: inline-block;
+    background: rgba(255, 254, 254, 0.253);
 }
 
 .global-footer {
